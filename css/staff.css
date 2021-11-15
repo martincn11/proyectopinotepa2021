@@ -1,0 +1,42 @@
+.contenedor-principal{
+    width: 65%;
+    background-color: #fff;
+}
+.martin{
+    margin:20px  0 20px 140px;
+    width: 300px;
+    border: 2px solid white;
+    display: inline-block;
+
+    border-radius: 4px;
+}
+.manuel{
+    margin-left: 20px;
+    width: 300px;
+    border: 2px solid white;
+    display: inline-block;
+    
+    border-radius: 4px;
+}
+.imagen{
+    width: 260px;
+    margin: 15px 30px 0 19px;
+    border-radius: 4px;
+}
+.descripcion-imagen{
+    width: 250px;
+}
+h2, h3{
+    margin-left: 0;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: Tahoma;
+    color:#00349b;
+    background-color: #ffffff;
+    text-align: center;
+    margin-left: 18px;
+}
+a{
+    text-decoration: none;
+
+}

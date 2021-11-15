@@ -1,0 +1,64 @@
+body{
+     background-image: linear-gradient(to right, #2372b6, #f15f5fbd);
+    align-items: center;
+}
+#formulario{
+    margin: 0 30px 10px 30px;
+    align-items: center;
+}
+#titulo-registro h1{
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0.2em;
+    padding:4px;
+    overflow: hidden;
+    color: rgb(235, 35, 35);
+    
+    
+}
+#contenedor-form{
+    border: 1px double rgb(236, 230, 230);
+    width: 450px;
+    height: 450px;
+    background: #ffff;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 30px ;
+}
+.letra-label{
+    font-size: 12px;
+    
+}
+.botones-inputs:focus + label {
+    background-color: rgb(90, 192, 90);    
+}
+
+.campos-registro{
+    padding: 8px;
+    width: 80%;
+    margin-top: 10px;
+}
+#boton-registro{
+    align-items: center;
+}
+#nombre{
+    font-size: 18px;;
+}
+#registro{
+    margin-top: 4.5%;
+    padding: 4px;
+    width: 100%;
+    border-radius: 0px;
+    border-radius: 6px;
+    border-color:white;
+    font-size: 14px;
+}
+.regis:hover{
+    background-color: grey;
+    color: white;
+
+
+}

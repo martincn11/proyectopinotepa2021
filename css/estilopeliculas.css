@@ -1,0 +1,102 @@
+/*Sección Principal*/
+section{
+    width: 75%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.clasificacion{
+    font-size: 35px;
+    margin:0px;
+    color: white;
+}
+.contenedortitulo{
+    background-color:rgb(11 24 96);
+    width: 100%;
+}
+
+section h1{
+    text-align: center;
+    padding: 0.4em;
+    color:#ffff;
+    font-size: 1.5em;
+}
+
+section h2{
+    margin-right: 100px;
+    padding: 0.3em;
+    color: #00349b;
+    font-size: 1em;
+}
+section h3{
+    text-align: left;
+    padding: 0.1em;
+    color: #000;
+    font-size: 1em;
+}
+
+/* Primera seccion*/
+/* Articulos*/
+article{
+    width: 99%;
+    /*height: 50vh;*/
+    margin: 0.5em 0.2em;
+    padding: 0.8em 0.3em;
+    background-color: #fff;
+}
+.contenidotabla{
+    width: 100%;
+    height: 100%;
+}
+.imagenes{
+    width: 190px;
+}
+.contenedorimagen{
+    position: relative;
+    float: left;
+}
+img{
+    border-radius: 4px;
+}
+.descripcion{
+    display: inline-block;
+    width: 750px;
+    margin-left: 15px;
+}
+.descripcion2{
+    width: 950px;
+    margin-left: 1px;
+}
+p{
+    text-align: justify;
+    font-family: Tahoma;
+    font-size:  0.9em;
+    padding: 0.5em;
+    line-height: 1.5em;
+}
+.subtitulo{
+    width: 800px;
+    margin-left: 510px;
+}
+iframe{
+    margin-left: 130px;
+    padding: 10px;
+}
+.subtitulo-dos{
+    width: 800px;
+    margin-left: 6px;
+}
+.estreno{
+    border-color:1px solid  blue;
+}
+hr{
+    width: 70%;
+    
+}
+.critica{
+    border:1px solid rgb(177, 0, 0);
+    border-radius: 4px;
+    margin-top: 10px;
+}

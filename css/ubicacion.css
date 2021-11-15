@@ -1,0 +1,30 @@
+section{
+    background-image: url(../images/bullet.png);
+}
+.titulo{
+    color: rgb(5, 5, 104);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+.sub-titulo{
+    text-align: center;
+    font-size: 17px;
+    color: #1a535c;
+    line-height: 1.4em;
+}
+.color-letra{
+    color: brown;
+}
+.conte-ubicacion{
+    margin: 0 0 20px 280px;
+    padding-top: 15px;
+    width: 800px;
+    background-color:rgb(250, 248, 248);
+    border-radius: 3px;
+}
+.ubicacion{
+    margin-left: 100px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}

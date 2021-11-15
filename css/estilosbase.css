@@ -1,0 +1,141 @@
+/* Inicio de CSS del Proyecto Web */ 
+/*Programación Web*/
+/*Miércoles 03 de Noviembre de 2021*/
+ *{
+    margin: auto;
+    padding: 0;
+    font-family: arial;
+    box-sizing: border-box;
+ }
+ /*Cabecera del Documento - Header*/
+ header{
+    background:linear-gradient(80deg, #191994, #6f7fa0, #191994);
+    width: 100%;
+}
+ header h1{
+     text-align: center;
+     color: #ffff;
+     padding: 0.5em;
+     font-size: 3em;
+ }
+ /*Favicon*/
+ .imgprincipal{
+    width: 90px;
+    float: left;
+    margin-top: 0.2em;
+    margin-left: 4em;
+    padding: 2px;
+}
+body{
+  background-image: linear-gradient(to right, #1a759f,#34a0a4);
+}
+ /*Titulo*/
+ #titulo{
+    font-family:'Irish Grover', cursive;
+    font-size: 1em;
+    width: 30em;
+ }
+ nav{
+     width: 100%;
+     background-color: #1c4a85;
+}
+ /*Barra de Navegación*/
+ #menu{
+    text-align: center;
+    width: 60%;
+    align-items: center;
+}
+ #menu ul {
+     list-style-type: none;
+     display: flex;
+}
+#menu ul li.submenu{
+    width: 150px;    
+    margin-right: 5px;
+}
+ /* listas de titulos */
+ #menu ul li a{
+     display: block;
+     text-decoration: none;
+     color:#ffff;
+     background-color: #1c4a85;
+     position: relative;
+     padding: 0.8em;    
+     transition: all .1s ease;
+     border-radius: 4px;
+}
+#menu ul li:hover a.submenu1{
+    position:relative;
+    display: table;
+}
+#menu ul li:hover a.submenu1:hover{
+    color: #000;
+    font-size: 16px;
+    background-color: rgb(235, 166, 166);
+}
+/* Cuando se pasa el cursor sobre el menu principal*/
+#menu ul li a.submenu:hover{
+    background-color: rgb(235, 166, 166);
+    color: #000;
+}
+/* Enlaces de los Submenus*/
+#menu ul li a.submenu
+{
+    font-size: 16px;
+    color:#ffff;
+    display: block!important;
+    position: relative;
+}
+#menu ul li a.submenu1{
+    display: none;
+    width: 150px;
+} 
+/*Al momento de pasar el mouse por el menu desplegable*/
+#menu ul li:hover ul {
+    display: block;
+    position: absolute;
+    background-color: #457B9D;
+    width: 150px;
+}
+/* Etiqueta Aside*/
+aside{
+    width: 260px;
+    margin-right: 25px;
+    margin-top: 5px;
+    float:right;
+}
+.anuncio{
+    margin: 5px;
+    border-radius: 4px;
+}
+.anun{
+    width: 245px;
+    position: relative;
+}
+
+
+/* Footer */
+footer{
+    clear: both;
+    background-color: #345757;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.pie{
+    margin-bottom: -250px;
+}
+.pie ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin:0.5em;
+    padding: 10px;
+}
+.pie ul li a{
+    text-decoration: none;
+    color: #ffff;
+}
+.pie ul li a:hover{
+    color:#000;
+    text-decoration: underline;
+}

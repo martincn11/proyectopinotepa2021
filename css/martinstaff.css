@@ -1,0 +1,77 @@
+/*Sección Principal*/
+section{
+    width: 75%;
+    float: left;
+    margin-top: 5px;
+    margin-left: 150px;
+    border-radius: 4px;
+}
+section h2{
+    padding: 0.3em;
+    color: #00349b;
+    font-size: 1em;
+    line-height: 1.5;
+    background-color: #fed9b7;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding-left: 12px;
+}
+
+/* Primera seccion*/
+/* Articulos*/
+article{
+    width:1000px;
+    margin: 0.5em;
+    padding: 0.8em 0.3em;
+    background-color: #fff;
+}
+.contenidotabla{
+    width: 100%;
+    height: 100%;
+}
+.imagenes{
+    width: 190px;
+    border-radius: 4px;
+}
+.contenedorimagen{
+    position: relative;
+    float: left;
+}
+.descripcion{
+    display: inline-block;
+    width: 785px;
+    margin-left: 15px;
+}
+p{
+    text-align: justify;
+    font-family: Tahoma;
+    font-size:  0.9em;
+    padding: 0.5em;
+    line-height: 1.8em;
+}
+.iconos{
+    width: 28px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.iconos-nuevo{
+    visibility: collapse;
+    width: 28px;
+    margin-left: 5px;
+    position: relative;
+}
+.red-social{
+    margin: -37px 0 0 35px;
+    position: relative;
+}
+.cont-alineado{
+    width: 365px;
+    margin: 0;
+    display: inline-block;
+}
+.cont-alineadodos{
+    width: 300px;
+    margin: 0;
+    display: inline-block;
+}
