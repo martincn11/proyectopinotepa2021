@@ -1,0 +1,38 @@
+.error{
+    background-color: #fff;
+    color:RGB(11 24 96);
+    margin-top:5px;
+    width: 1000px;
+    border-radius: 8px;
+}
+.error-titulo{
+    width: 640px;
+    text-align: center;
+    padding: 15px;
+    font-size: 22pt;
+}
+.error-icono-iz{
+    width: 60px;
+    display: block;
+    float: left;
+    margin: 2px 0 0 80px;    
+    display:inline-flex;
+}
+.error-icono-de{
+    width: 60px;
+    display: block;
+    float: right;
+    margin: -63px 80px 0 0;
+}
+section{
+    width: 870px;
+    float: left;
+    margin: 5px 0 10px 18%;
+    border-radius: 4px;
+    background-color: azure;
+}
+.imagen1{
+    width: 600px;
+    margin-left: 150px;
+    padding: 10px 0 10px 0;
+}

@@ -1,7 +1,10 @@
 /* Inicio de CSS del Proyecto Web */ 
 /*Programación Web*/
 /*Miércoles 03 de Noviembre de 2021*/
- *{
+/* Importación de Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
     margin: auto;
     padding: 0;
     font-family: arial;
@@ -15,26 +18,46 @@
  header h1{
      text-align: center;
      color: #ffff;
-     padding: 0.5em;
-     font-size: 3em;
+     /*font-family: 'Roboto Slab', serif;*/
+     font-family: 'Acme', sans-serif;
+     font-size: 55pt;
+     padding: 8px;
+ }
+ /*Titulo*/
+ #titulo{
+    width: 600px;
  }
  /*Favicon*/
  .imgprincipal{
-    width: 90px;
+    width: 200px;
     float: left;
-    margin-top: 0.2em;
-    margin-left: 4em;
     padding: 2px;
+    margin: 5px 0 0 6em;
 }
 body{
   background-image: linear-gradient(to right, #1a759f,#34a0a4);
 }
- /*Titulo*/
- #titulo{
-    font-family:'Irish Grover', cursive;
-    font-size: 1em;
-    width: 30em;
- }
+/* Aside de las redes sociales*/
+.redes-sociales{
+    width: 150px;
+    float: right;
+    margin: -70px 0 0 1100px;
+    position: absolute;
+  /*
+    border-top-style: solid;
+    border-top-color:#fff;
+    border-top-width: 1px;
+
+    border-bottom-style: solid;
+    border-bottom-color:#fff;
+    border-bottom-width: 1px;
+*/
+}
+.icono-redes{
+    padding: 5px 0 0 0;
+    width: 30px;
+    margin-left: 15px;
+}
  nav{
      width: 100%;
      background-color: #1c4a85;
@@ -60,35 +83,40 @@ body{
      color:#ffff;
      background-color: #1c4a85;
      position: relative;
-     padding: 0.8em;    
-     transition: all .1s ease;
+     transition: .2s;
      border-radius: 4px;
 }
 #menu ul li:hover a.submenu1{
     position:relative;
     display: table;
+    font-family: 'Righteous', cursive;
+    
 }
 #menu ul li:hover a.submenu1:hover{
     color: #000;
     font-size: 16px;
-    background-color: rgb(235, 166, 166);
+    background-color: #fff1e6;
 }
 /* Cuando se pasa el cursor sobre el menu principal*/
 #menu ul li a.submenu:hover{
-    background-color: rgb(235, 166, 166);
+    background-color: #fff1e6;
     color: #000;
 }
 /* Enlaces de los Submenus*/
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 #menu ul li a.submenu
 {
-    font-size: 16px;
+    font-size: 18px;
     color:#ffff;
     display: block!important;
     position: relative;
+    font-family: 'Righteous', cursive;
+    padding: .5em;
 }
 #menu ul li a.submenu1{
     display: none;
     width: 150px;
+    padding: 0.5em;
 } 
 /*Al momento de pasar el mouse por el menu desplegable*/
 #menu ul li:hover ul {
@@ -97,6 +125,78 @@ body{
     background-color: #457B9D;
     width: 150px;
 }
+/* Estilos del reloj digital y calendario */ 
+ .reloj-digital{
+     border: none;
+     border-radius: 4px;    
+     float: left;
+     width: 160px;
+     margin-left: 108px;
+ }
+ .mostrar-reloj{
+     border:none;
+     border-radius: 4px;
+     background: #fff;
+     color: #000; 
+     font-weight: normal; 
+     font-family: Tahoma; 
+     font-size: 12pt; 
+     text-align: center; 
+     padding: 2px;
+     width: 118px;
+ }
+ .miFecha{
+    width: 120px;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 15pt;
+    border-radius: 6px;
+    float: right;
+    margin: 160px 95px 0 0;
+}
+.miFecha .anno{
+    color:  #fff;
+    padding: 5px;
+    font-size: 100%;
+    margin-top: 5px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    background: #815839;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.miFecha .dia{
+    color: #000;
+    background: #fff;
+    font-weight: bold;
+    font-size: 150%;
+    padding: 12px;
+    margin-bottom:  3px;
+    text-shadow: 1px 1px 1px #0000;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+.miFecha .mes{
+    color: #000;
+    background: #fed766;
+    font-weight: bold;
+    font-size: 80%;
+    font-family: Arial;
+    padding: 3px;
+}
+.usuario-icono{
+    width: 40px;
+    padding-top: 2px;
+}
+/* División del calendario y la hora*/
+.division-calendario{
+    color: #ffff;
+    border: 0.1px solid;
+    margin-top: 8px;
+    width: 120%;
+    margin-left: -35px;
+} 
+
 /* Etiqueta Aside*/
 aside{
     width: 260px;

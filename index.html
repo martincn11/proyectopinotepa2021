@@ -3,8 +3,6 @@
 <!--Lenguaje Es (México)-->
 <html lang="es">
     <head>
-            <!--Favicon-->
-            <link rel="icon" href="favicon.png" type="image/png" />
             <!--Indicamos los Metas -->
             <meta charset="UTF-8"/>
             <meta name="description" content="Proyecto del TecNM Campús Pinotepa"/>
@@ -18,23 +16,28 @@
             <meta name="languague" content="Es" />
             <meta http-equiv="Expires" content="0" />
             <meta http-equiv="cache-control" content="no-cache" />
+            <!--Favicon-->
+            <link rel="icon" href="images/favicon.png" type="image/png" />
             <title> ViewMex </title>
             <!--Hojas de Estilos (internas o externas)-->
             <link rel="stylesheet" href="css/estilosbase.css" media="all">
             <link rel="stylesheet" href="css/estilo.css" media="all">
-
-            <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
-            <!-- Llamada a archivos .js -->
-
+             <!-- Llamada a archivos .js -->
+            <script src="js/calendario.js"></script>
+            <script src="js/relojDigital.js"></script>
             <!--Llamada a archivos php-->
     </head>
-    <body>
+    <body onload="mReloj()">
         <!--Encabezado de la Plantilla-->
         <header>
-            <div class="imgprincipal"><img src="images/logo.png" alt="Error al cargar la imagen" class="imgprincipal" ></div>
+            <div><img src="images/logo.png" alt="Error al cargar la imagen" class="imgprincipal" ></div>
             <div id="titulo"><h1>ViewMex</h1></div>
+            <div class="redes-sociales">
+               <a href="#"> <img src="images/whatsapp.png" alt="Error al cargar la imagen" class="icono-redes"> </a>
+                <a href="#"> <img src="images/twitter.png" alt="Error al cargar la imagen" class="icono-redes"> </a>
+                <a href="#"> <img src="images/facebook.png" alt="Error al cargar la imagen" class="icono-redes"></a>
+            </div>
         </header>
-
         <!--Barra de Navegación-->
         <nav>
             <div id="menu">
@@ -52,7 +55,6 @@
                     <li class="submenu"> <a href="#" class="submenu"> Servicios</a>
                         <div class="submenu">
                             <ul>
-                                <li class="submenu"> <a href="#" class="submenu1">Información</a> </li>
                                 <li class="submenu"> <a href="publicidad.html" class="submenu1"> Publicidad</a></li>
                                 <li class="submenu"> <a href="reseñas.html" class="submenu1"> Reseñas </a></li>
                             </ul>
@@ -66,7 +68,9 @@
                             </ul>
                         </div>
                     </li>
-                    <li class="submenu"> <a href="sesion.html" class="submenu"> Iniciar Sesión</a>
+                    <li> 
+                        <a href="sesion.html"> <img src="images/usuario.png" alt="Error al cargar la imagen" class="usuario-icono"> </a> 
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -173,6 +177,13 @@
             </article>
         </section>
         <!--Etiqueta Aside-->
+        <div class="reloj-digital">
+            <form name="form_reloj">
+                <input type="text" name="reloj" size="15" readonly="readonly" disabled class="mostrar-reloj"
+                                onfocus="windows.document.form_reloj.form.blur()">
+            </form>
+            <hr class="division-calendario">
+        </div>
         <aside>
             <div class="anuncio">
                 <a href="https://www.milcomics.com/" target="blank"><img src="images/anuncio1.png" class="anun" alt="Error "></a>
@@ -286,7 +297,7 @@
                     </div>
                     <div class="descripcion">
                         <p> Ojo de Halcón es una serie de Marvel que se centra en la historia del superhéroe Clint Barton que se encuentra viviendo
-                        en Nueva York tras los acontecimientos de Los Vengadores: Endgame... 
+                        en Nueva York tras los acontecimientos de Los Vengadores: Endgame... <br> 
                         <a href="#" class="enlace"> Ver mas </a>
                     </p>
                     </div>

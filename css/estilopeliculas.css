@@ -81,8 +81,9 @@ p{
     margin-left: 510px;
 }
 iframe{
-    margin-left: 130px;
+    margin-left: 20px;
     padding: 10px;
+    border-radius: 20px;
 }
 .subtitulo-dos{
     width: 800px;

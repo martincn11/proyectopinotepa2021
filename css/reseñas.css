@@ -1,16 +1,9 @@
-section{
-    width: 75%;
-    float: left;
-    margin: 5px 0 10px 10%;
-    border-radius: 4px;
-}
-.reseña h1{
-    text-align: center;
-    font-size: 30px;
-    font-family: Tahoma;
-    padding: 10px;
-    color: brown;
-}
-.reseña p{
-    text-align: justify;
+.titulo-publicidad{
+    width: 100%;
+    background-color: RGB(11 24 96);
+    color: #fff;
+    padding: 15px;
+    text-align:center;
+    font-size: 28pt;
+    margin-top: 5px;
 }
